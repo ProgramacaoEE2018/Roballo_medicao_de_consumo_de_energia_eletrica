@@ -1,6 +1,6 @@
 # Roballo_medicao_de_consumo_de_energia_eletrica
 
-Conceito: O projeto consiste na implementação de um sistema particular de monitoramento de consumo de energia elétrica, em tempo real e não invasivo utilizando Arduino.
+Conceito: O projeto consiste na implementação de um sistema particular de monitoramento de consumo de energia elétrica em tempo real e não invasivo utilizando Arduino.
 Dessa forma pode-se controlar de maneira mais consciente a utilização da energia elétrica na residência e economizar energia.
 
 Função: Através de sensores de corrente e de tensão, verificar o consumo em tempo real da residência e, com o processamento e envio de dados para o computador, conseguir acompanhar todo o consumo de energia elétrica em tempo real de uma residência.
