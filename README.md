@@ -7,7 +7,7 @@ Função: Através de sensores de corrente e de tensão, verificar o consumo em 
 
 Motivação: é que o monitoramento em tempo real e de forma fácil, faça com que a conscientização pela economia de energia seja desenvolvida no cotidiano das pessoas, podendo assim ser uma das soluções de eficiência energética na área da Engenharia Elétrica e alavancar melhoras consideráveis no setor elétrico brasileiro de forma barata.
 
-##Trabalho 8:
+#Trabalho 8:
 
 O material necessário para o projeto foi:
 01 – Placa Uno R3
@@ -31,5 +31,7 @@ O tutorial para o código do arduino usado no projeto encontra-se no link:https:
 A biblioteca Gráfica usada no projeto foi o Windows Forms e segui o seguinte tutorial para montagem da interface: https://www.youtube.com/watch?v=lM9E4H72sZM.
 
 Foi obtido, dessa forma, o seguinte resultado: 
+![chart_dinamico_2d](https://user-images.githubusercontent.com/37376973/40452295-c9f5c156-5eb7-11e8-8e56-4829b802e2cf.png)
+![chart_dinamico_3d](https://user-images.githubusercontent.com/37376973/40452305-ccb277fe-5eb7-11e8-99b1-8939e8e51e66.png)
 
 
