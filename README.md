@@ -24,7 +24,7 @@ O material necessário para o projeto foi:
 
 O tutorial para a montagem do Projeto com arduino foi obtido no site: https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/how-to-build-an-arduino-energy-monitor-measuring-current-only?redirected=true
 
-O meu projeto, seguindo este tutorial, ficou da seguinte maneira:
+O meu projeto, seguindo este tutorial, ficou da seguinte maneira: ![projeto medidor de energia](https://user-images.githubusercontent.com/37376973/40452178-5649a6dc-5eb7-11e8-9767-e415321c1d91.jpg)
 
 O tutorial para o código do arduino usado no projeto encontra-se no link:https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/how-to-build-an-arduino-energy-monitor-measuring-current-only?redirected=true
 
