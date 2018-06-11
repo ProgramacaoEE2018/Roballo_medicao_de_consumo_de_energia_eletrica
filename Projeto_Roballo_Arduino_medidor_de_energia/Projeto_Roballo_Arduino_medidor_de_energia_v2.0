@@ -1,0 +1,106 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.IO.Ports;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Projeto_Roballo_Arduino_medidor_de_energia
+{
+    public partial class Form1 : Form
+    {
+        Thread X;
+        public Form1()
+        {
+            InitializeComponent();
+            ComboPorta.DataSource = SerialPort.GetPortNames();
+            X = new Thread(new ThreadStart(Serial));
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (SP.IsOpen)
+            {
+                SP.Close();
+                X.Abort();
+                timerx.Enabled = false;
+            }
+            else
+            {
+                SP.PortName = ComboPorta.Text;
+                SP.BaudRate = Convert.ToInt32(ComboBaud.Text);
+                SP.Open();
+                //X.Start();
+                timerx.Enabled = true;
+
+            }
+        }
+
+        void Serial()
+        {
+            while (true)
+            {
+                SP.Write("a");
+                textBox1.Text += SP.ReadLine();
+                textBox1.Text += "\r\n";
+            }
+        }
+        private void SP_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
+        {
+            this.Invoke(new EventHandler(transfere));
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            SP.Write("a");
+        }
+
+        void transfere(object sender, EventArgs e)
+        {
+            string dado = SP.ReadLine();
+            string[] dados = dado.Split(',');
+            textBox1.Text += dados[0];
+            textBox1.Text += "%\r\n";
+            textBox1.Select(textBox1.Text.Length, 0);
+            textBox1.ScrollToCaret();
+
+            textBox2.Text += dados[1];
+            textBox2.Text += "°C\r\n";
+            textBox2.Select(textBox2.Text.Length, 0);
+            textBox2.ScrollToCaret();
+
+            chart1.Series[0].Points.Add(Convert.ToDouble(dados[0]));
+            chart1.Series[1].Points.Add(Convert.ToDouble(dados[1]));
+            int x = chart1.Series[0].Points.Count;
+            if (x > 100)
+                chart1.ChartAreas[0].AxisX.ScaleView.Zoom(x - 100, x);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            SP.Close();
+            X.Abort();
+            timerx.Enabled = false;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
