@@ -23,13 +23,16 @@ O material necessário para o projeto foi:
 01 – Plug Tomada Macho;
 01 – Plug Tomada Fêmea;
 
-O tutorial para a montagem do Projeto com arduino foi obtido no site: https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/how-to-build-an-arduino-energy-monitor-measuring-current-only?redirected=true
+## Tutorial para a montagem do Projeto com arduino
+Foi obtido no site: https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/how-to-build-an-arduino-energy-monitor-measuring-current-only?redirected=true
 
 O meu projeto, seguindo este tutorial, ficou da seguinte maneira: ![projeto medidor de energia](https://user-images.githubusercontent.com/37376973/40452178-5649a6dc-5eb7-11e8-9767-e415321c1d91.jpg)
 
-O tutorial para o código do arduino usado no projeto encontra-se no link:https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/how-to-build-an-arduino-energy-monitor-measuring-current-only?redirected=true
+## Tutorial para o código do arduino usado no projeto
+Encontra-se no link:https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/how-to-build-an-arduino-energy-monitor-measuring-current-only?redirected=true
 
-A biblioteca Gráfica usada no projeto foi o Windows Forms e segui o seguinte tutorial para montagem da interface: https://www.youtube.com/watch?v=lM9E4H72sZM.
+## Tutorial para a biblioteca Gráfica usada no projeto
+Foi o Windows Forms e segui o seguinte tutorial para montagem da interface: https://www.youtube.com/watch?v=lM9E4H72sZM.
 
 Foi obtido, dessa forma, o seguinte resultado: 
 ![chart_dinamico_2d](https://user-images.githubusercontent.com/37376973/40452295-c9f5c156-5eb7-11e8-8e56-4829b802e2cf.png)
