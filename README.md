@@ -7,8 +7,6 @@ Função: Através de sensores de corrente e de tensão, verificar o consumo em 
 
 Motivação: é que o monitoramento em tempo real e de forma fácil, faça com que a conscientização pela economia de energia seja desenvolvida no cotidiano das pessoas, podendo assim ser uma das soluções de eficiência energética na área da Engenharia Elétrica e alavancar melhoras consideráveis no setor elétrico brasileiro de forma barata.
 
-#Trabalho 8:
-
 O material necessário para o projeto foi:
 01 – Placa Uno R3
 01 – Cabo USB
