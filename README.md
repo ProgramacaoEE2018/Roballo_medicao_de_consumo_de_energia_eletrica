@@ -38,4 +38,12 @@ Foi obtido, dessa forma, o seguinte resultado:
 ![chart_dinamico_2d](https://user-images.githubusercontent.com/37376973/40452295-c9f5c156-5eb7-11e8-8e56-4829b802e2cf.png)
 ![chart_dinamico_3d](https://user-images.githubusercontent.com/37376973/40452305-ccb277fe-5eb7-11e8-99b1-8939e8e51e66.png)
 
+## Fluxograma do trabalho:
+Fluxograma_trabalho.png
 
+## Esboço da interface Gráfica:
+Esboco da interface gráfica.PNG
+
+## Diagrama UML Arduino e da Interface Gráfica:
+Diagrama_classes_arduino.png
+Diagrama_UML_Interface_Gráfica.png
