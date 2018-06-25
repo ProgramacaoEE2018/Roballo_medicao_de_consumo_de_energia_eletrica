@@ -43,8 +43,11 @@ Foi obtido, dessa forma, o seguinte resultado:
 
 
 ## Esboço da interface Gráfica:
-Esboco da interface gráfica.PNG
+![image](https://user-images.githubusercontent.com/37376973/41875357-0bbe0fa0-78a1-11e8-9430-2f5b547546d9.png)
+
 
 ## Diagrama UML Arduino e da Interface Gráfica:
-Diagrama_classes_arduino.png
-Diagrama_UML_Interface_Gráfica.png
+![image](https://user-images.githubusercontent.com/37376973/41875524-75f41522-78a1-11e8-809d-171ca0e8b9cf.png)
+
+![image](https://user-images.githubusercontent.com/37376973/41875462-4fc2a0b2-78a1-11e8-9e85-b29be6d53521.png)
+
