@@ -39,7 +39,8 @@ Foi obtido, dessa forma, o seguinte resultado:
 ![chart_dinamico_3d](https://user-images.githubusercontent.com/37376973/40452305-ccb277fe-5eb7-11e8-99b1-8939e8e51e66.png)
 
 ## Fluxograma do trabalho:
-Fluxograma_trabalho.png
+![fluxograma_trabalho](https://user-images.githubusercontent.com/37376973/41875270-bc313692-78a0-11e8-80df-ebb66b35099f.png)
+
 
 ## Esboço da interface Gráfica:
 Esboco da interface gráfica.PNG
