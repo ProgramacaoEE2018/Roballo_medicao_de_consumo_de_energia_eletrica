@@ -51,3 +51,7 @@ Foi obtido, dessa forma, o seguinte resultado:
 
 ![image](https://user-images.githubusercontent.com/37376973/41875462-4fc2a0b2-78a1-11e8-9e85-b29be6d53521.png)
 
+## Tutorial para utilização do programa:
+[Instruções de Compilação e Uso do Projeto.pdf](https://github.com/ProgramacaoEE2018/Roballo_medicao_de_consumo_de_energia_eletrica/files/2134731/Instrucoes.de.Compilacao.e.Uso.do.Projeto.pdf)
+
+
